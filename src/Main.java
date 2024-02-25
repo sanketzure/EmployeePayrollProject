@@ -103,8 +103,8 @@ public class Main
     public static void main(String[] args)
     {
         PayrollSystem payrollSystem = new PayrollSystem();
-        FullTimeEmployee emp1 = new FullTimeEmployee("Sandesh",1,25000);
-        PartTimeEmployee emp2 = new PartTimeEmployee("pawan",2,15,2000);
+        FullTimeEmployee emp1 = new FullTimeEmployee("Tony Stark",1,25000);
+        PartTimeEmployee emp2 = new PartTimeEmployee("Captain Jack Sparrow",2,15,20000);
 
         payrollSystem.addEmployee(emp1);
         payrollSystem.addEmployee(emp2);
